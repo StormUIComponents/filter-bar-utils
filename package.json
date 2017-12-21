@@ -1,0 +1,61 @@
+{
+  "name": "filter-bar-utils",
+  "version": "1.0.0",
+  "description": "Utility package for handling application specific filter events.",
+  "main": "dist/bundle.js",
+  "files": [
+    "dist/",
+    "src/",
+    "index.js",
+    "package.json",
+    "LICENSE",
+    "README.MD"
+  ],
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "core-js": "^2.4.0",
+    "es6-promise": "^3.2.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.13.0",
+    "moment-timezone": "^0.5.5",
+    "node-fetch": "^1.5.3",
+    "react": "^15.4.0",
+    "react-dom": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^6.0.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^3.1.1",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-import": "^0.8.1",
+    "eslint-plugin-react": "^3.14.0",
+    "expect": "^1.20.1",
+    "express": "^4.13.3",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-helpers": "^5.0.0",
+    "gulp-jsx-coverage": "^0.3.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "jasmine-core": "^2.8.0",
+    "jshint": "^2.9.5",
+    "json-loader": "^0.5.4",
+    "prompt": "^0.2.14",
+    "react-addons-test-utils": "^15.1.0",
+    "source-map-loader": "^0.1.5",
+    "webpack": "^1.13.1"
+  },
+  "engines": {
+    "node": ">=5.1",
+    "npm": ">=3.3"
+  }
+}

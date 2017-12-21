@@ -1,0 +1,11 @@
+.idea
+dist/bundle.js
+dist/devBundle.js
+dist/bundle.js.map
+dist/devBundle.js.map
+node_modules
+node
+.npmrc
+test/coverage
+npm-debug.log
+.vscode
