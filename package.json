@@ -1,8 +1,14 @@
 {
   "name": "filter-bar-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility package for handling application specific filter events.",
   "main": "dist/bundle.js",
+  "author": "",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StormUIComponents/filter-bar-utils.git"
+  },
   "files": [
     "dist/",
     "src/",
@@ -11,21 +17,13 @@
     "LICENSE",
     "README.MD"
   ],
-  "scripts": {
-    "prepublish": "npm run build",
-    "build": "webpack"
-  },
-  "author": "",
-  "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "core-js": "^2.4.0",
     "es6-promise": "^3.2.1",
     "lodash": "^4.17.4",
     "moment": "^2.13.0",
     "moment-timezone": "^0.5.5",
-    "node-fetch": "^1.5.3",
-    "react": "^15.4.0",
-    "react-dom": "^15.1.0"
+    "node-fetch": "^1.5.3"
   },
   "devDependencies": {
     "babel-core": "^6.9.1",
@@ -50,9 +48,12 @@
     "jshint": "^2.9.5",
     "json-loader": "^0.5.4",
     "prompt": "^0.2.14",
-    "react-addons-test-utils": "^15.1.0",
     "source-map-loader": "^0.1.5",
     "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "webpack"
   },
   "engines": {
     "node": ">=5.1",
