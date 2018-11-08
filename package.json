@@ -1,8 +1,8 @@
 {
   "name": "filter-bar-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utility package for handling application specific filter events.",
-  "main": "dist/bundle.js",
+  "main": "dist/filter_bar_utils_bundle.js",
   "author": "",
   "license": "Apache-2.0",
   "repository": {
@@ -49,11 +49,15 @@
     "json-loader": "^0.5.4",
     "prompt": "^0.2.14",
     "source-map-loader": "^0.1.5",
-    "webpack": "^1.13.1"
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^1.13.1",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
     "prepublish": "npm run build",
-    "build": "webpack"
+    "build": "webpack",
+    "startDev": "webpack-dev-server --config webpack.devConfig.js"
   },
   "engines": {
     "node": ">=5.1",
