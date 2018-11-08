@@ -1,8 +1,8 @@
 .idea
-dist/bundle.js
-dist/devBundle.js
-dist/bundle.js.map
-dist/devBundle.js.map
+dist/filter_bar_utils_bundle.js
+dist/devfilter_bar_utils_bundle.js
+dist/filter_bar_utils_bundle.js.map
+dist/devfilter_bar_utils_bundle.js.map
 node_modules
 node
 .npmrc
