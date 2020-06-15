@@ -1,6 +1,6 @@
 {
   "name": "filter-bar-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Utility package for handling application specific filter events.",
   "main": "dist/filter_bar_utils_bundle.js",
   "author": "",
